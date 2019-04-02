@@ -30,6 +30,11 @@ let variables = "var prefix = 'ds';"
 
 let iconsCache = 'var _iconsCache = {'
 
+let iconsMD = `# Icon List
+
+File Name | FA Icon Name
+--- | ---`
+
 Object.keys(icons).forEach(key => {
   const stringifiedVar = stringifyObject(icons[key].definition, {
     indent: '   ',
@@ -49,6 +54,9 @@ Object.keys(icons).forEach(key => {
 
   indexEsJsExports = `${indexEsJsExports}
   ${key},`
+
+  iconsMD = `${iconsMD}
+${key} | ${icons[key].definition.iconName}`
 })
 
 iconsCache = `${iconsCache}};`
@@ -80,6 +88,8 @@ const indexJsData = new Uint8Array(Buffer.from(indexJs))
 
 const indexEsJsData = new Uint8Array(Buffer.from(indexEsJs))
 
+const iconIndexMd = new Uint8Array(Buffer.from(iconsMD))
+
 fs.writeFile('index.js', indexJsData, 'utf8', err => {
   if (err) throw err
   console.log('✅ Built index.js')
@@ -88,4 +98,9 @@ fs.writeFile('index.js', indexJsData, 'utf8', err => {
 fs.writeFile('index.es.js', indexEsJsData, 'utf8', err => {
   if (err) throw err
   console.log('✅ Built index.es.js')
+})
+
+fs.writeFile('icons.md', iconIndexMd, 'utf8', err => {
+  if (err) throw err
+  console.log('✅ Generated icon list: icons.md')
 })

@@ -15,7 +15,7 @@ exports.definition = {
   icon: [width, height, ligatures, unicode, svgPathData]
 };
 
-exports.faYinYang = exports.definition;
+exports.dsCheckCircle = exports.definition;
 exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;

@@ -7,13 +7,27 @@
 ## Installation
 
 ```
-$ npm i --save @gapminder/dollar-street-icons
+npm i --save @gapminder/dollar-street-icons
 ```
 
 Or
 
 ```
-$ yarn add @gapminder/dollar-street-icons
+yarn add @gapminder/dollar-street-icons
+```
+
+## How to add icons
+
+Install dev dependencies:
+
+```
+yarn install
+```
+
+Add a new icon with file name `dsIconName.js`, just like previous icons. Then run the build script:
+
+```
+yarn build
 ```
 
 ## Documentation

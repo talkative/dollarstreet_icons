@@ -15,7 +15,7 @@ exports.definition = {
   icon: [width, height, ligatures, unicode, svgPathData]
 };
 
-exports.faYinYang = exports.definition;
+exports.dsMapMarker = exports.definition;
 exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;

@@ -1,48 +1,49 @@
 # Icon List
 
-File Name | FA Icon Name
---- | ---
-dsArrowRight | arrow-right
-dsBedroom | bedroom
-dsBike | bike
-dsBook | book
-dsCCCircle | cc-circle
-dsCheckCircle | check-circle
-dsChevronRight | chevron-right
-dsComb | comb
-dsCup | cup
-dsDoor | door
-dsDownload | download
-dsDrinkingWater | drinking-water
-dsFamily | family
-dsFoodMarker | food-marker
-dsFreezer | freezer
-dsGardenFence | garden-fence
-dsGuitar | guitar
-dsHandLeft | hand-left
-dsHandRight | hand-right
-dsHanger | hanger
-dsHouse | house
-dsInfoCircle | info-circle
-dsKey | key
-dsKidsBed | kids-bed
-dsKitchen | kitchen
-dsLock | lock
-dsLogotype | logotype
-dsMapMarker | map-marker
-dsMotorcycle | motorcycle
-dsPet | pet
-dsPills | pills
-dsPlay | play
-dsRoof | roof
-dsSearch | search
-dsShoe | shoe
-dsShoeHighheel | shoe-highheel
-dsSpices | spices
-dsTable | table
-dsTeacup | teacup
-dsTelevision | television
-dsToothbtush | toothbrush
-dsToothpaste | toothpaste
-dsZoomIn | zoom-in
-dsZoomOut | zoom-out
+Icon | File Name | FA Icon Name
+--- | --- | ---
+![](src/arrow-right.svg) | dsArrowRight | arrow-right
+![](src/bedroom.svg) | dsBedroom | bedroom
+![](src/bike.svg) | dsBike | bike
+![](src/book.svg) | dsBook | book
+![](src/cc-circle.svg) | dsCCCircle | cc-circle
+![](src/check-circle.svg) | dsCheckCircle | check-circle
+![](src/chevron-right.svg) | dsChevronRight | chevron-right
+![](src/comb.svg) | dsComb | comb
+![](src/cup.svg) | dsCup | cup
+![](src/door.svg) | dsDoor | door
+![](src/download.svg) | dsDownload | download
+![](src/drinking-water.svg) | dsDrinkingWater | drinking-water
+![](src/family.svg) | dsFamily | family
+![](src/food-marker.svg) | dsFoodMarker | food-marker
+![](src/freezer.svg) | dsFreezer | freezer
+![](src/garden-fence.svg) | dsGardenFence | garden-fence
+![](src/glasses.svg) | dsGlasses | glasses
+![](src/guitar.svg) | dsGuitar | guitar
+![](src/hand-left.svg) | dsHandLeft | hand-left
+![](src/hand-right.svg) | dsHandRight | hand-right
+![](src/hanger.svg) | dsHanger | hanger
+![](src/house.svg) | dsHouse | house
+![](src/info-circle.svg) | dsInfoCircle | info-circle
+![](src/key.svg) | dsKey | key
+![](src/kids-bed.svg) | dsKidsBed | kids-bed
+![](src/kitchen.svg) | dsKitchen | kitchen
+![](src/lock.svg) | dsLock | lock
+![](src/logotype.svg) | dsLogotype | logotype
+![](src/map-marker.svg) | dsMapMarker | map-marker
+![](src/motorcycle.svg) | dsMotorcycle | motorcycle
+![](src/pet.svg) | dsPet | pet
+![](src/pills.svg) | dsPills | pills
+![](src/play.svg) | dsPlay | play
+![](src/roof.svg) | dsRoof | roof
+![](src/search.svg) | dsSearch | search
+![](src/shoe.svg) | dsShoe | shoe
+![](src/shoe-highheel.svg) | dsShoeHighheel | shoe-highheel
+![](src/spices.svg) | dsSpices | spices
+![](src/table.svg) | dsTable | table
+![](src/teacup.svg) | dsTeacup | teacup
+![](src/television.svg) | dsTelevision | television
+![](src/toothbrush.svg) | dsToothbtush | toothbrush
+![](src/toothpaste.svg) | dsToothpaste | toothpaste
+![](src/zoom-in.svg) | dsZoomIn | zoom-in
+![](src/zoom-out.svg) | dsZoomOut | zoom-out

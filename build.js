@@ -32,14 +32,16 @@ let iconsCache = 'var _iconsCache = {'
 
 let iconsMD = `# Icon List
 
-File Name | FA Icon Name
---- | ---`
+Icon | File Name | FA Icon Name
+--- | --- | ---`
 
 Object.keys(icons).forEach(key => {
   const stringifiedVar = stringifyObject(icons[key].definition, {
     indent: '   ',
     singleQuotes: true,
   })
+
+  const iconName = icons[key].definition.iconName
 
   const variable = `var ${key} = ${stringifiedVar};`
 
@@ -56,7 +58,7 @@ Object.keys(icons).forEach(key => {
   ${key},`
 
   iconsMD = `${iconsMD}
-${key} | ${icons[key].definition.iconName}`
+![](src/${iconName}.svg) | ${key} | ${iconName}`
 })
 
 iconsCache = `${iconsCache}};`

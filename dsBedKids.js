@@ -1,7 +1,7 @@
 'use strict'
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
-var iconName = 'kids-bed'
+var iconName = 'bed-kids'
 var width = 90
 var height = 64.19
 var ligatures = []
@@ -15,7 +15,7 @@ exports.definition = {
   icon: [width, height, ligatures, unicode, svgPathData],
 }
 
-exports.dsKidsBed = exports.definition
+exports.dsBedKids = exports.definition
 exports.prefix = prefix
 exports.iconName = iconName
 exports.width = width

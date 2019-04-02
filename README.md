@@ -24,7 +24,7 @@ Install dev dependencies:
 yarn install
 ```
 
-Add a new icon with file name `dsIconName.js`, just like previous icons. Then run the build script:
+Add a new icon with file name `dsIconName.js`, mimicing the format of previous icons. Then run the build script:
 
 ```
 yarn build

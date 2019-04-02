@@ -1,4 +1,4 @@
-# Icon List
+# Icon List (45)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---

@@ -9,6 +9,8 @@ const icons = require('require-all')({
   recursive: false,
 })
 
+const numIcons = Object.keys(icons).length
+
 const indexJsHead = `(function(global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined'
     ? factory(exports)
@@ -30,7 +32,7 @@ let variables = "var prefix = 'ds';"
 
 let iconsCache = 'var _iconsCache = {'
 
-let iconsMD = `# Icon List
+let iconsMD = `# Icon List (${numIcons})
 
 Icon | File Name | FA Icon Name
 --- | --- | ---`

@@ -1,4 +1,4 @@
-# Icon List (67)
+# Icon List (73)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -32,6 +32,7 @@ Icon | File Name | FA Icon Name
 ![](src/hand-right.svg) | dsHandRight | hand-right
 ![](src/hanger.svg) | dsHanger | hanger
 ![](src/house.svg) | dsHouse | house
+![](src/house2.svg) | dsHouse2 | house2
 ![](src/info-circle.svg) | dsInfoCircle | info-circle
 ![](src/key.svg) | dsKey | key
 ![](src/kitchen.svg) | dsKitchen | kitchen
@@ -50,18 +51,23 @@ Icon | File Name | FA Icon Name
 ![](src/play.svg) | dsPlay | play
 ![](src/plot.svg) | dsPlot | plot
 ![](src/pot-boiling.svg) | dsPotBoiling | pot-boiling
+![](src/radish.svg) | dsRadish | radish
 ![](src/roof.svg) | dsRoof | roof
 ![](src/search.svg) | dsSearch | search
 ![](src/shaving-kit.svg) | dsShavingKit | shaving-kit
 ![](src/shoe.svg) | dsShoe | shoe
 ![](src/shoe-highheel.svg) | dsShoeHighheel | shoe-highheel
+![](src/soap.svg) | dsSoap | soap
 ![](src/soap-dish.svg) | dsSoapDish | soap-dish
 ![](src/soap-hand.svg) | dsSoapHand | soap-hand
 ![](src/spices.svg) | dsSpices | spices
 ![](src/storage.svg) | dsStorage | storage
+![](src/stove.svg) | dsStove | stove
 ![](src/table.svg) | dsTable | table
 ![](src/teacup.svg) | dsTeacup | teacup
+![](src/teddybear.svg) | dsTeddybear | teddybear
 ![](src/television.svg) | dsTelevision | television
+![](src/toilet.svg) | dsToilet | toilet
 ![](src/toothbrush.svg) | dsToothbtush | toothbrush
 ![](src/toothpaste.svg) | dsToothpaste | toothpaste
 ![](src/washing.svg) | dsWashing | washing

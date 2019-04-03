@@ -24,26 +24,32 @@ Read about Font Awesome [here](https://fontawesome.com/how-to-use/on-the-web/set
 
 Or go straight to the [API documentation](https://fontawesome.com/how-to-use/with-the-api).
 
-## How to add icons
+## How to add icons (5 steps)
 
-Install dev dependencies:
+#### 1) Install development dependencies
 
 ```
 yarn install
 ```
 
-Add a new icon with file name `dsIconName.js`, mimicing the format of previous icons. Note the arrows highlighting vital parts to change:
+#### 2) Add SVG files
+
+Create your SVG file, and make sure it's a "compound path". _(Illustrator: `Object > Compound Path > Make`)_. Add to the `src` folder. Name the icon as you wish to call it in Font Awesome, lower-case hyphenated.
+
+#### 3) Create icon JS file
+
+Create a file with name `dsIconName.js`, mimicking the format of previous icons. Note the comments in the example code below:
 
 ```javascript
 'use strict'
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
-var iconName = 'house' // <--
-var width = 48 // <--
-var height = 48 // <--
+var iconName = 'house' // SVG file name
+var width = 48 // width of viewBox
+var height = 48 // height of viewBox
 var ligatures = []
 var unicode = 'e001'
-var svgPathData = 'M48,23.15L23.99,0L0,23.15h6.22V48h35.54V23.15H48z' // <--
+var svgPathData = 'M48,23.15L23.99,0L0,23.15h6.22V48h35.54V23.15H48z' // SVG path
 
 exports.definition = {
   prefix: prefix,
@@ -51,7 +57,7 @@ exports.definition = {
   icon: [width, height, ligatures, unicode, svgPathData],
 }
 
-exports.dsHouse = exports.definition // <--
+exports.dsHouse = exports.definition // this file name
 exports.prefix = prefix
 exports.iconName = iconName
 exports.width = width
@@ -61,9 +67,11 @@ exports.unicode = unicode
 exports.svgPathData = svgPathData
 ```
 
-To get the svgPathData, find the option to create a "compound path" in your vector editor. Illustrator: `Object > Compound Path > Make`. Then you can select the image, copy, then paste into a text editor. Make sure svgPathData is one line only. The width and height values can be found in the SVG text as well as `viewBox="0 0 W H"`;
+#### 4) insert SVG path data
 
-Then run the build script:
+If your SVG is a compound path, open the file in your image editor, copy to clipboard, then paste into a text editor. Find the SVG path similar to the example above and make sure it's one line only. That's the `svgPathData`. The width and height values can be found in the SVG attribute as `viewBox="0 0 W H"`;
+
+#### 5) Run the build script:
 
 ```
 yarn build

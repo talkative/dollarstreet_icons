@@ -24,7 +24,7 @@ Read about Font Awesome [here](https://fontawesome.com/how-to-use/on-the-web/set
 
 Or go straight to the [API documentation](https://fontawesome.com/how-to-use/with-the-api).
 
-## How to add icons (5 steps)
+## How to add icons (6 steps)
 
 #### 1) Install development dependencies
 
@@ -75,6 +75,14 @@ If your SVG is a compound path, open the file in your image editor, copy to clip
 
 ```
 yarn build
+```
+
+#### 6) Publish to NPM
+
+> ⚠️ You must be a member of [the GapMinder NPM org](https://www.npmjs.com/org/gapminder) to continue!
+
+```
+npm publish --access public
 ```
 
 ## Issues and support

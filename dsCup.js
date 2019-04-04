@@ -2,12 +2,12 @@
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
 var iconName = 'cup'
-var width = 88
-var height = 76.47
+var width = 40.3
+var height = 35.2
 var ligatures = []
 var unicode = 'e001'
 var svgPathData =
-  'M69.18,0H42.86v0.11H0v58.52c0,9.9,8.05,17.84,17.84,17.84h30.13c9.9,0,17.84-8.05,17.84-17.84v-21.1h3.37C79.52,37.53,88,29.15,88,18.71C87.89,8.38,79.52,0,69.18,0z M69.18,27.52h-3.37V10.01h3.37c4.89,0,8.81,3.92,8.81,8.81C77.88,23.6,73.97,27.52,69.18,27.52z'
+  'M31.8,0H19.7v0.1H0V27c0,4.5,3.7,8.2,8.2,8.2H22c4.5,0,8.2-3.7,8.2-8.2v-9.7h1.5c4.8,0,8.6-3.9,8.6-8.6C40.4,3.9,36.5,0,31.8,0z M31.8,12.7h-1.6V4.6h1.5c2.2,0,4,1.8,4,4C35.8,10.9,34,12.7,31.8,12.7z'
 
 exports.definition = {
   prefix: prefix,

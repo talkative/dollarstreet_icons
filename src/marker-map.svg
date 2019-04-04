@@ -1,1 +1,12 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 24"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>map-marker</title><path class="cls-1" d="M7.5,0h0A7.73,7.73,0,0,0,0,7.94c0,1.76,1.06,4.64,3.25,8.78,1.55,2.94,3.07,5.39,3.14,5.49L7.5,24l1.11-1.79c.07-.1,1.59-2.55,3.14-5.48C13.94,12.58,15,9.7,15,7.94A7.73,7.73,0,0,0,7.5,0Zm0,11.94a4,4,0,1,1,4-4A4,4,0,0,1,7.5,11.94Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+</style>
+<title>map-marker</title>
+<path class="st0" d="M25,0L25,0C16.1,0.3,9.1,7.7,9.4,16.5c0,3.7,2.2,9.7,6.8,18.3c3.2,6.1,6.4,11.2,6.5,11.4L25,50l2.3-3.7
+	c0.1-0.2,3.3-5.3,6.5-11.4c4.6-8.6,6.8-14.6,6.8-18.3C40.9,7.7,33.9,0.3,25,0z M25,24.9c-4.6,0-8.3-3.7-8.3-8.3s3.7-8.3,8.3-8.3
+	s8.3,3.7,8.3,8.3S29.6,24.9,25,24.9z"/>
+</svg>

@@ -37,6 +37,8 @@ let iconsMD = `# Icon List (${numIcons})
 Icon | File Name | FA Icon Name
 --- | --- | ---`
 
+let iconNames = ''
+
 Object.keys(icons).forEach(key => {
   const stringifiedVar = stringifyObject(icons[key].definition, {
     indent: '   ',
@@ -61,6 +63,9 @@ Object.keys(icons).forEach(key => {
 
   iconsMD = `${iconsMD}
 ![](../src/${iconName}.svg) | ${key} | ${iconName}`
+
+  iconNames = `${iconNames}
+  ${iconName}`
 })
 
 iconsCache = `${iconsCache}};`
@@ -94,6 +99,8 @@ const indexEsJsData = new Uint8Array(Buffer.from(indexEsJs))
 
 const iconIndexMd = new Uint8Array(Buffer.from(iconsMD))
 
+const iconIndex = new Uint8Array(Buffer.from(iconNames))
+
 fs.writeFile('index.js', indexJsData, 'utf8', err => {
   if (err) throw err
   console.log('✅ Built index.js')
@@ -107,4 +114,9 @@ fs.writeFile('index.es.js', indexEsJsData, 'utf8', err => {
 fs.writeFile('docs/icons.md', iconIndexMd, 'utf8', err => {
   if (err) throw err
   console.log('✅ Generated icon list: icons.md')
+})
+
+fs.writeFile('docs/icons.txt', iconIndex, 'utf8', err => {
+  if (err) throw err
+  console.log('✅ Generated icon list: icons.txt')
 })

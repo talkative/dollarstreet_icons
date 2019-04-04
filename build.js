@@ -60,7 +60,7 @@ Object.keys(icons).forEach(key => {
   ${key},`
 
   iconsMD = `${iconsMD}
-![](src/${iconName}.svg) | ${key} | ${iconName}`
+![](../src/${iconName}.svg) | ${key} | ${iconName}`
 })
 
 iconsCache = `${iconsCache}};`
@@ -104,7 +104,7 @@ fs.writeFile('index.es.js', indexEsJsData, 'utf8', err => {
   console.log('✅ Built index.es.js')
 })
 
-fs.writeFile('icons.md', iconIndexMd, 'utf8', err => {
+fs.writeFile('docs/icons.md', iconIndexMd, 'utf8', err => {
   if (err) throw err
   console.log('✅ Generated icon list: icons.md')
 })

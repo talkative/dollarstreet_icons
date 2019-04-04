@@ -1,8 +1,8 @@
+/docs
 /node_modules
 /src
 .gitignore
 .prettierrc
 build.js
-icons.md
 README.md
 yarn.lock

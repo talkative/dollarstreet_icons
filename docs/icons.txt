@@ -125,6 +125,7 @@
   storage
   street-detail
   street-view
+  times
   table-food
   table-workdesk
   tattoo

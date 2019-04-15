@@ -1,4 +1,4 @@
-# Icon List (154)
+# Icon List (155)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -128,6 +128,7 @@ Icon | File Name | FA Icon Name
 ![](../src/storage.svg) | dsStorage | storage
 ![](../src/street-detail.svg) | dsStreetDetail | street-detail
 ![](../src/street-view.svg) | dsStreetView | street-view
+![](../src/times.svg) | dsTImes | times
 ![](../src/table-food.svg) | dsTableFood | table-food
 ![](../src/table-workdesk.svg) | dsTableWorkdesk | table-workdesk
 ![](../src/tattoo.svg) | dsTattoo | tattoo

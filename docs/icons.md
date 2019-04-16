@@ -1,4 +1,4 @@
-# Icon List (155)
+# Icon List (156)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -14,6 +14,7 @@ Icon | File Name | FA Icon Name
 ![](../src/cc-circle.svg) | dsCCCircle | cc-circle
 ![](../src/car.svg) | dsCar | car
 ![](../src/car-key.svg) | dsCarKey | car-key
+![](../src/check.svg) | dsCheck | check
 ![](../src/check-circle.svg) | dsCheckCircle | check-circle
 ![](../src/cherries.svg) | dsCherries | cherries
 ![](../src/chevron-right.svg) | dsChevronRight | chevron-right
@@ -128,13 +129,13 @@ Icon | File Name | FA Icon Name
 ![](../src/storage.svg) | dsStorage | storage
 ![](../src/street-detail.svg) | dsStreetDetail | street-detail
 ![](../src/street-view.svg) | dsStreetView | street-view
-![](../src/times.svg) | dsTImes | times
 ![](../src/table-food.svg) | dsTableFood | table-food
 ![](../src/table-workdesk.svg) | dsTableWorkdesk | table-workdesk
 ![](../src/tattoo.svg) | dsTattoo | tattoo
 ![](../src/teacup.svg) | dsTeacup | teacup
 ![](../src/teddybear.svg) | dsTeddybear | teddybear
 ![](../src/television.svg) | dsTelevision | television
+![](../src/times.svg) | dsTimes | times
 ![](../src/toilet.svg) | dsToilet | toilet
 ![](../src/toilet-paper.svg) | dsToiletPaper | toilet-paper
 ![](../src/tools.svg) | dsTools | tools

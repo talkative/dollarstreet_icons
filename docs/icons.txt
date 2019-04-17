@@ -77,6 +77,7 @@
   light-bulb
   logo-circle
   makeup
+  marker-arrow
   marker-food
   marker-map
   meat

@@ -1,4 +1,4 @@
-# Icon List (156)
+# Icon List (157)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -80,6 +80,7 @@ Icon | File Name | FA Icon Name
 ![](../src/light-bulb.svg) | dsLightBulb | light-bulb
 ![](../src/logo-circle.svg) | dsLogoCircle | logo-circle
 ![](../src/makeup.svg) | dsMakeup | makeup
+![](../src/marker-arrow.svg) | dsMarkerArrow | marker-arrow
 ![](../src/marker-food.svg) | dsMarkerFood | marker-food
 ![](../src/marker-map.svg) | dsMarkerMap | marker-map
 ![](../src/meat.svg) | dsMeat | meat

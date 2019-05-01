@@ -1,6 +1,6 @@
 {
   "name": "@gapminder/dollar-street-icons",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Font Awesome icon library for Dollar Street by GapMinder",
   "main": "index.js",
   "module": "index.es.js",

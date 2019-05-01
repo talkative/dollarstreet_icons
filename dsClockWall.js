@@ -1,7 +1,7 @@
 'use strict'
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
-var iconName = 'house-walls'
+var iconName = 'clock-wall'
 var width = 28.1
 var height = 45.97
 var ligatures = []

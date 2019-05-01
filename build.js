@@ -37,7 +37,7 @@ let iconsMD = `# Icon List (${numIcons})
 Icon | File Name | FA Icon Name
 --- | --- | ---`
 
-let iconNames = ''
+let iconsJSON = ''
 
 Object.keys(icons).forEach(key => {
   const stringifiedVar = stringifyObject(icons[key].definition, {
@@ -64,8 +64,8 @@ Object.keys(icons).forEach(key => {
   iconsMD = `${iconsMD}
 ![](../src/${iconName}.svg) | ${key} | ${iconName}`
 
-  iconNames = `${iconNames}
-  ${iconName}`
+  iconsJSON = `${iconsJSON}
+  "${iconName}": "${key}",`
 })
 
 iconsCache = `${iconsCache}};`
@@ -93,13 +93,15 @@ const indexEsJs = prettier.format(
   { parser: 'babel' }
 )
 
+iconsJSON = prettier.format(`{${iconsJSON}}`, { parser: 'json' })
+
 const indexJsData = new Uint8Array(Buffer.from(indexJs))
 
 const indexEsJsData = new Uint8Array(Buffer.from(indexEsJs))
 
 const iconIndexMd = new Uint8Array(Buffer.from(iconsMD))
 
-const iconIndex = new Uint8Array(Buffer.from(iconNames))
+const iconIndex = new Uint8Array(Buffer.from(iconsJSON))
 
 fs.writeFile('index.js', indexJsData, 'utf8', err => {
   if (err) throw err
@@ -116,7 +118,7 @@ fs.writeFile('docs/icons.md', iconIndexMd, 'utf8', err => {
   console.log('✅ Generated icon list: icons.md')
 })
 
-fs.writeFile('docs/icons.txt', iconIndex, 'utf8', err => {
+fs.writeFile('icons.json', iconIndex, 'utf8', err => {
   if (err) throw err
-  console.log('✅ Generated icon list: icons.txt')
+  console.log('✅ Generated icon list: icons.json')
 })

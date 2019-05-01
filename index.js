@@ -208,7 +208,7 @@
   };
   var dsClockWall = {
     prefix: "ds",
-    iconName: "house-walls",
+    iconName: "clock-wall",
     icon: [
       28.1,
       45.97,

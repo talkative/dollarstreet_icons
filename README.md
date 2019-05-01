@@ -4,7 +4,9 @@
 
 [![npm](https://img.shields.io/npm/v/@gapminder/dollar-street-icons.svg?style=flat-square)](https://www.npmjs.com/package/@gapminder/dollar-street-icons)
 
-## [List of icons](docs/icons.md)
+## The icons
+
+For a list of all icons with thumbnails, see [docs/icons.md](docs/icons.md). Included in the NPM package is `icons.json`, for your convenience.
 
 ## Installation
 
@@ -22,7 +24,7 @@ yarn add @gapminder/dollar-street-icons
 
 Read about Font Awesome [here](https://fontawesome.com/how-to-use/on-the-web/setup/getting-started).
 
-Or go straight to the [API documentation](https://fontawesome.com/how-to-use/with-the-api).
+Or go straight to the [Font Awesome API documentation](https://fontawesome.com/how-to-use/with-the-api).
 
 ## [Editing the icon set](docs/editing.md)
 

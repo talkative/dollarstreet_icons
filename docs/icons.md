@@ -20,7 +20,7 @@ Icon | File Name | FA Icon Name
 ![](../src/chevron-right.svg) | dsChevronRight | chevron-right
 ![](../src/chicken.svg) | dsChicken | chicken
 ![](../src/cigarette.svg) | dsCigarette | cigarette
-![](../src/house-walls.svg) | dsClockWall | house-walls
+![](../src/clock-wall.svg) | dsClockWall | clock-wall
 ![](../src/clothes-hanging.svg) | dsClothesHanging | clothes-hanging
 ![](../src/comment.svg) | dsComment | comment
 ![](../src/condom.svg) | dsCondom | condom

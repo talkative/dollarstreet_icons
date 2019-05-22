@@ -15,7 +15,7 @@ exports.definition = {
   icon: [width, height, ligatures, unicode, svgPathData],
 }
 
-exports.dsHouseWalls = exports.definition
+exports.dsClockWall = exports.definition
 exports.prefix = prefix
 exports.iconName = iconName
 exports.width = width

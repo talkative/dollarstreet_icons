@@ -1,4 +1,4 @@
-# Icon List (157)
+# Icon List (158)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -41,12 +41,12 @@ Icon | File Name | FA Icon Name
 ![](../src/door-lock.svg) | dsDoorLock | door-lock
 ![](../src/download.svg) | dsDownload | download
 ![](../src/earring.svg) | dsEarring | earring
+![](../src/empty.svg) | dsEmpty | empty
 ![](../src/family.svg) | dsFamily | family
 ![](../src/fav-decoration.svg) | dsFavDecoration | fav-decoration
 ![](../src/fav-furniture.svg) | dsFavFurniture | fav-furniture
 ![](../src/fav-kitchen-item.svg) | dsFavKitchenItem | fav-kitchen-item
 ![](../src/fav-sports-club.svg) | dsFavSportsClub | fav-sports-club
-![](../src/fav-teddy.svg) | dsFavTeddy | fav-teddy
 ![](../src/fence.svg) | dsFence | fence
 ![](../src/file.svg) | dsFile | file
 ![](../src/fish.svg) | dsFish | fish
@@ -135,6 +135,7 @@ Icon | File Name | FA Icon Name
 ![](../src/tattoo.svg) | dsTattoo | tattoo
 ![](../src/teacup.svg) | dsTeacup | teacup
 ![](../src/teddybear.svg) | dsTeddybear | teddybear
+![](../src/teddybear-alt.svg) | dsTeddybearAlt | teddybear-alt
 ![](../src/television.svg) | dsTelevision | television
 ![](../src/times.svg) | dsTimes | times
 ![](../src/toilet.svg) | dsToilet | toilet

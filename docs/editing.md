@@ -8,19 +8,19 @@ yarn install
 
 #### 2) Add SVG files
 
-Create your SVG file, and make sure it's a "compound path". _(Illustrator: `Object > Compound Path > Make`)_. Add to the `src` folder. Name the icon as you wish to call it in Font Awesome, lower-case hyphenated.
+Create your SVG file, and make sure it's a "compound path". _(Illustrator: `Object > Compound Path > Make`)_. Add to the `svg` folder. Name the icon as you wish to call it in Font Awesome, lower-case hyphenated.
 
 #### 3) Create icon JS file
 
-Create a file with name `dsIconName.js`, mimicking the format of previous icons. Note the comments in the example code below:
+Create a file with name `dsIconName.js` in `/src`, mimicking the format of previous icons. Note the comments in the example code below:
 
 ```javascript
 'use strict'
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
 var iconName = 'house' // SVG file name
-var width = 48 // width of viewBox
-var height = 48 // height of viewBox
+var width = 512 // width of viewBox
+var height = 512 // height of viewBox
 var ligatures = []
 var unicode = 'e001'
 var svgPathData = 'M48,23.15L23.99,0L0,23.15h6.22V48h35.54V23.15H48z' // SVG path
@@ -40,6 +40,8 @@ exports.ligatures = ligatures
 exports.unicode = unicode
 exports.svgPathData = svgPathData
 ```
+
+> ⚠️ Icons must be 512px high for FontAwesome to properly transform and mask them
 
 #### 4) insert SVG path data
 

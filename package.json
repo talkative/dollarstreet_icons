@@ -2,8 +2,8 @@
   "name": "@gapminder/dollar-street-icons",
   "version": "0.1.7",
   "description": "Font Awesome icon library for Dollar Street by GapMinder",
-  "main": "index.js",
-  "module": "index.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "build": "node build",
     "test": "echo \"Error: no test specified\" && exit 1"

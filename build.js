@@ -4,7 +4,7 @@ const stringifyObject = require('stringify-object')
 const prettier = require('prettier')
 
 const icons = require('require-all')({
-  dirname: __dirname,
+  dirname: `${__dirname}/src`,
   filter: /(ds.+)\.js$/,
   recursive: false,
 })
@@ -103,22 +103,26 @@ const iconIndexMd = new Uint8Array(Buffer.from(iconsMD))
 
 const iconIndex = new Uint8Array(Buffer.from(iconsJSON))
 
-fs.writeFile('index.js', indexJsData, 'utf8', err => {
+fs.mkdir('dist', { recursive: true }, err => {
   if (err) throw err
-  console.log('✅ Built index.js')
-})
 
-fs.writeFile('index.es.js', indexEsJsData, 'utf8', err => {
-  if (err) throw err
-  console.log('✅ Built index.es.js')
-})
+  fs.writeFile('dist/index.js', indexJsData, 'utf8', err => {
+    if (err) throw err
+    console.log('✅ Built index.js')
+  })
 
-fs.writeFile('docs/icons.md', iconIndexMd, 'utf8', err => {
-  if (err) throw err
-  console.log('✅ Generated icon list: icons.md')
-})
+  fs.writeFile('dist/index.es.js', indexEsJsData, 'utf8', err => {
+    if (err) throw err
+    console.log('✅ Built index.es.js')
+  })
 
-fs.writeFile('icons.json', iconIndex, 'utf8', err => {
-  if (err) throw err
-  console.log('✅ Generated icon list: icons.json')
+  fs.writeFile('docs/icons.md', iconIndexMd, 'utf8', err => {
+    if (err) throw err
+    console.log('✅ Generated icon preview page: icons.md')
+  })
+
+  fs.writeFile('icons.json', iconIndex, 'utf8', err => {
+    if (err) throw err
+    console.log('✅ Generated icon list: icons.json')
+  })
 })

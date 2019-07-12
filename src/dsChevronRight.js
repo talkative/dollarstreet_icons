@@ -2,12 +2,12 @@
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
 var iconName = 'chevron-right'
-var width = 26.99
-var height = 50
+var width = 276.7
+var height = 512
 var ligatures = []
 var unicode = 'e001'
 var svgPathData =
-  'M3.04,0.52c-0.69-0.69-1.81-0.69-2.52,0c-0.69,0.69-0.69,1.81,0,2.5l0,0l22.12,22L0.54,47.01c-0.67,0.71-0.65,1.83,0.06,2.5c0.69,0.65,1.77,0.65,2.46,0l23.41-23.25c0.69-0.69,0.69-1.81,0-2.5l0,0L3.04,0.52z'
+  'M30.9,5.4c-7.2-7.2-18.4-7.2-25.6,0s-7.2,18.4,0,25.6l0,0L231.4,256L5.4,481.1c-7.2,7.2-7.2,18.4,1,25.6	c7.2,7.2,18.4,7.2,25.6,0l239.4-238.4c7.2-7.2,7.2-18.4,0-25.6l0,0L30.9,5.4z'
 
 exports.definition = {
   prefix: prefix,

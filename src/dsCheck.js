@@ -3,11 +3,11 @@ Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
 var iconName = 'check'
 var width = 50
-var height = 36.37
+var height = 372.4
 var ligatures = []
 var unicode = 'e001'
 var svgPathData =
-  'M46.88,0l-28.7,29.69L3.33,14.32L0,17.77l17.97,18.6L50,3.23L46.88,0z'
+  'M480.1,0L186.2,304L34.1,146.6L0,182l184.3,190.5L512,32.7L480.1,0z'
 
 exports.definition = {
   prefix: prefix,

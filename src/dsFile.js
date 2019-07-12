@@ -2,12 +2,12 @@
 Object.defineProperty(exports, '__esModule', { value: true })
 var prefix = 'ds'
 var iconName = 'file'
-var width = 33.6
-var height = 44.4
+var width = 387.5
+var height = 512
 var ligatures = []
 var unicode = 'e001'
 var svgPathData =
-  'M33.6,10.7L22.9,0H0v44.4h33.6V10.7z M22.2,4.3l6.3,6.3h-6.3C22.2,10.6,22.2,4.3,22.2,4.3z M30,40.8H3.6V3.6h15v10.6H30C30,14.2,30,40.8,30,40.8z'
+  'M387.5,123.4L264.1,0H0v512h387.5V123.4z M256,49.6l72.6,72.6H256C256,122.2,256,49.6,256,49.6z M345.9,470.5H41.5v-429h173	v122.2h131.5C345.9,163.7,345.9,470.5,345.9,470.5z'
 
 exports.definition = {
   prefix: prefix,

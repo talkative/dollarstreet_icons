@@ -62,7 +62,7 @@ Object.keys(icons).forEach(key => {
   ${key},`
 
   iconsMD = `${iconsMD}
-![](../src/${iconName}.svg) | ${key} | ${iconName}`
+![](../svg/${iconName}.svg) | ${key} | ${iconName}`
 
   iconsJSON = `${iconsJSON}
   "${iconName}": "${key}",`

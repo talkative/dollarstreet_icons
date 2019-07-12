@@ -22,12 +22,27 @@ yarn add @gapminder/dollar-street-icons
 
 ## How to use
 
+Import your icons like so:
+
+```javascript
+import { dsLogoCircle, dsTimes } from '@gapminder/dollar-street-icons'
+```
+
+Or as a deep import:
+
+```javascript
+import { dsLogoCircle } from '@gapminder/dollar-street-icons/dist/dsLogoCircle'
+import { dsTimes } from '@gapminder/dollar-street-icons/dist/dsTimes'
+```
+
 Read about Font Awesome [here](https://fontawesome.com/how-to-use/on-the-web/setup/getting-started).
 
 Or go straight to the [Font Awesome API documentation](https://fontawesome.com/how-to-use/with-the-api).
 
-## [Editing the icon set](docs/editing.md)
+---
 
-## Issues and support
+## Read more
 
-[GitHub issues](https://github.com/GapMinder/dollar-street-icons/issues)
+• [Editing the icon set](docs/editing.md)
+
+• [GitHub issues](https://github.com/GapMinder/dollar-street-icons/issues)

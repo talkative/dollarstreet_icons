@@ -9,7 +9,7 @@ const jetty = new Jetty(process.stdout)
 
 const make = function() {
   const icons = require('require-all')({
-    dirname: path.join(__dirname, 'temp'),
+    dirname: path.join(__basedir, 'dist'),
     filter: /(ds.+)\.js$/,
     recursive: false,
   })

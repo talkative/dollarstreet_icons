@@ -49,7 +49,7 @@ const make = function(cb) {
   jetty.clear()
 
   try {
-    fs.mkdirSync(path.join(__dirname, 'temp'))
+    fs.mkdirSync(path.join(__basedir, 'dist'))
   } catch (e) {
     if (e.code !== 'EEXIST') throw e
   }
@@ -103,7 +103,7 @@ const make = function(cb) {
         )
 
         fs.writeFileSync(
-          path.join(__dirname, 'temp', `${filename}.js`),
+          path.join(__basedir, 'dist', `${filename}.js`),
           newFile,
           err => {
             if (err) {

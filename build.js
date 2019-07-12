@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const stringifyObject = require('stringify-object')
 const prettier = require('prettier')
+const svg_to_png = require('svg-to-png')
 const Jetty = require('jetty')
 
 const jetty = new Jetty(process.stdout)
@@ -65,7 +66,7 @@ Object.keys(icons).forEach(key => {
   ${key},`
 
   iconsMD = `${iconsMD}
-![](../svg/${iconName}.svg) | ${key} | ${iconName}`
+![](../png/${iconName}.png) | ${key} | ${iconName}`
 
   iconsJSON = `${iconsJSON}
   "${iconName}": "${key}",`
@@ -141,7 +142,25 @@ fs.mkdir('dist', { recursive: true }, err => {
   fs.writeFile('icons.json', iconIndex, 'utf8', err => {
     if (err) throw err
     jetty.moveTo([4, 0]).text('✅ Generating icon list... Done')
-
-    jetty.moveTo([5, 0])
   })
+})
+
+jetty.moveTo([5, 0]).text('☑️ Creating png folder...')
+
+fs.mkdir('png', { recursive: true }, err => {
+  if (err && err.code !== 'EEXIST') throw err
+
+  jetty.moveTo([5, 0]).text('✅ Creating png folder... Done')
+
+  jetty.moveTo([6, 0]).text('☑️  Generating PNGs...')
+
+  svg_to_png
+    .convert(path.join(__dirname, 'svg'), path.join(__dirname, 'png'), {
+      defaultWidth: 64,
+      defaultHeight: 64,
+    })
+    .then(function(hello, hey) {
+      jetty.moveTo([6, 0]).text('✅ Generating PNGs... Done')
+      jetty.moveTo([7, 0])
+    })
 })

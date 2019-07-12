@@ -28,6 +28,7 @@
     "jetty": "^0.2.1",
     "prettier": "^1.16.4",
     "require-all": "^3.0.0",
-    "stringify-object": "^3.3.0"
+    "stringify-object": "^3.3.0",
+    "svg-to-png": "^4.0.0"
   }
 }

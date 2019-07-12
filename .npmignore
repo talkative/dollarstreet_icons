@@ -1,6 +1,8 @@
 /docs
 /node_modules
 /src
+/svg
+/png
 .gitignore
 .prettierrc
 build.js

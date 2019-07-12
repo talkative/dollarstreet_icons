@@ -11,9 +11,9 @@ Icon | File Name | FA Icon Name
 ![](../png/bike.png) | dsBike | bike
 ![](../png/boat.png) | dsBoat | boat
 ![](../png/book.png) | dsBook | book
-![](../png/cc-circle.png) | dsCCCircle | cc-circle
 ![](../png/car.png) | dsCar | car
 ![](../png/car-key.png) | dsCarKey | car-key
+![](../png/cc-circle.png) | dsCcCircle | cc-circle
 ![](../png/check.png) | dsCheck | check
 ![](../png/check-circle.png) | dsCheckCircle | check-circle
 ![](../png/cherries.png) | dsCherries | cherries

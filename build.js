@@ -2,6 +2,9 @@ const fs = require('fs')
 const path = require('path')
 const stringifyObject = require('stringify-object')
 const prettier = require('prettier')
+const Jetty = require('jetty')
+
+const jetty = new Jetty(process.stdout)
 
 const icons = require('require-all')({
   dirname: `${__dirname}/src`,
@@ -103,26 +106,42 @@ const iconIndexMd = new Uint8Array(Buffer.from(iconsMD))
 
 const iconIndex = new Uint8Array(Buffer.from(iconsJSON))
 
+jetty.clear()
+
+jetty.moveTo([0, 0]).text('☑️ Creating dist folder...')
+
 fs.mkdir('dist', { recursive: true }, err => {
-  if (err) throw err
+  if (err && err.code !== 'EEXIST') throw err
+
+  jetty.moveTo([0, 0]).text('✅ Creating dist folder... Done')
+
+  jetty.moveTo([1, 0]).text('☑️ Building index.js...')
 
   fs.writeFile('dist/index.js', indexJsData, 'utf8', err => {
     if (err) throw err
-    console.log('✅ Built index.js')
+    jetty.moveTo([1, 0]).text('✅ Building index.js... Done')
   })
+
+  jetty.moveTo([2, 0]).text('☑️ Building index.es.js...')
 
   fs.writeFile('dist/index.es.js', indexEsJsData, 'utf8', err => {
     if (err) throw err
-    console.log('✅ Built index.es.js')
+    jetty.moveTo([2, 0]).text('✅ Building index.es.js... Done')
   })
+
+  jetty.moveTo([3, 0]).text('☑️ Generating icon preview page...')
 
   fs.writeFile('docs/icons.md', iconIndexMd, 'utf8', err => {
     if (err) throw err
-    console.log('✅ Generated icon preview page: icons.md')
+    jetty.moveTo([3, 0]).text('✅ Generating icon preview page... Done')
   })
+
+  jetty.moveTo([4, 0]).text('☑️  Generating icon list...')
 
   fs.writeFile('icons.json', iconIndex, 'utf8', err => {
     if (err) throw err
-    console.log('✅ Generated icon list: icons.json')
+    jetty.moveTo([4, 0]).text('✅ Generating icon list... Done')
+
+    jetty.moveTo([5, 0])
   })
 })

@@ -25,6 +25,7 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "jetty": "^0.2.1",
     "prettier": "^1.16.4",
     "require-all": "^3.0.0",
     "stringify-object": "^3.3.0"

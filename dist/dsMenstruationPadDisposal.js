@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var prefix = "ds";
-var iconName = "disposal-pads";
+var iconName = "menstruation-pad-disposal";
 var width = 512;
 var height = 512;
 var ligatures = [];
@@ -15,7 +15,7 @@ exports.definition = {
   icon: [width, height, ligatures, unicode, svgPathData]
 };
 
-exports.dsDisposalPads = exports.definition;
+exports.dsMenstruationPadDisposal = exports.definition;
 exports.prefix = prefix;
 exports.iconName = iconName;
 exports.width = width;

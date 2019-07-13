@@ -1,16 +1,20 @@
-# Icon List (160)
+# Icon List (181)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
 ![](../png/agriculture.png) | dsAgriculture | agriculture
 ![](../png/alcohol.png) | dsAlcohol | alcohol
+![](../png/armchair.png) | dsArmchair | armchair
 ![](../png/arrow-right.png) | dsArrowRight | arrow-right
+![](../png/ban.png) | dsBan | ban
 ![](../png/bathtub.png) | dsBathtub | bathtub
+![](../png/bed.png) | dsBed | bed
 ![](../png/bed-children.png) | dsBedChildren | bed-children
 ![](../png/bed-guest.png) | dsBedGuest | bed-guest
 ![](../png/bike.png) | dsBike | bike
 ![](../png/boat.png) | dsBoat | boat
 ![](../png/book.png) | dsBook | book
+![](../png/bowl.png) | dsBowl | bowl
 ![](../png/car.png) | dsCar | car
 ![](../png/car-key.png) | dsCarKey | car-key
 ![](../png/cc-circle.png) | dsCcCircle | cc-circle
@@ -20,6 +24,7 @@ Icon | File Name | FA Icon Name
 ![](../png/chevron-right.png) | dsChevronRight | chevron-right
 ![](../png/chicken.png) | dsChicken | chicken
 ![](../png/cigarette.png) | dsCigarette | cigarette
+![](../png/clock-alarm.png) | dsClockAlarm | clock-alarm
 ![](../png/clock-wall.png) | dsClockWall | clock-wall
 ![](../png/clothes-hanging.png) | dsClothesHanging | clothes-hanging
 ![](../png/comment.png) | dsComment | comment
@@ -31,12 +36,10 @@ Icon | File Name | FA Icon Name
 ![](../png/cup.png) | dsCup | cup
 ![](../png/cutlery.png) | dsCutlery | cutlery
 ![](../png/diaper.png) | dsDiaper | diaper
-![](../png/dinner-table.png) | dsDinnerTable | dinner-table
 ![](../png/dish-brush.png) | dsDishBrush | dish-brush
 ![](../png/dish-rack.png) | dsDishRack | dish-rack
 ![](../png/dishwasher.png) | dsDishwasher | dishwasher
 ![](../png/dishwashing-soap.png) | dsDishwashingSoap | dishwashing-soap
-![](../png/disposal-pads.png) | dsDisposalPads | disposal-pads
 ![](../png/dollarstreet.png) | dsDollarstreet | dollarstreet
 ![](../png/dollarstreet-circle.png) | dsDollarstreetCircle | dollarstreet-circle
 ![](../png/door.png) | dsDoor | door
@@ -46,6 +49,7 @@ Icon | File Name | FA Icon Name
 ![](../png/earring.png) | dsEarring | earring
 ![](../png/empty.png) | dsEmpty | empty
 ![](../png/family.png) | dsFamily | family
+![](../png/family-heart.png) | dsFamilyHeart | family-heart
 ![](../png/fav-decoration.png) | dsFavDecoration | fav-decoration
 ![](../png/fav-furniture.png) | dsFavFurniture | fav-furniture
 ![](../png/fav-kitchen-item.png) | dsFavKitchenItem | fav-kitchen-item
@@ -57,10 +61,12 @@ Icon | File Name | FA Icon Name
 ![](../png/fruit-tree.png) | dsFruitTree | fruit-tree
 ![](../png/furniture-new.png) | dsFurnitureNew | furniture-new
 ![](../png/glasses.png) | dsGlasses | glasses
+![](../png/goat.png) | dsGoat | goat
 ![](../png/grains.png) | dsGrains | grains
 ![](../png/guitar.png) | dsGuitar | guitar
 ![](../png/hair-dryer.png) | dsHairDryer | hair-dryer
 ![](../png/hairbrush.png) | dsHairbrush | hairbrush
+![](../png/hand-drops.png) | dsHandDrops | hand-drops
 ![](../png/hand-left.png) | dsHandLeft | hand-left
 ![](../png/hand-right.png) | dsHandRight | hand-right
 ![](../png/hanger.png) | dsHanger | hanger
@@ -87,6 +93,8 @@ Icon | File Name | FA Icon Name
 ![](../png/marker-map.png) | dsMarkerMap | marker-map
 ![](../png/meat.png) | dsMeat | meat
 ![](../png/medication.png) | dsMedication | medication
+![](../png/menstruation-pad.png) | dsMenstruationPad | menstruation-pad
+![](../png/menstruation-pad-disposal.png) | dsMenstruationPadDisposal | menstruation-pad-disposal
 ![](../png/mobile.png) | dsMobile | mobile
 ![](../png/mobile-ringing.png) | dsMobileRinging | mobile-ringing
 ![](../png/moped.png) | dsMoped | moped
@@ -100,10 +108,15 @@ Icon | File Name | FA Icon Name
 ![](../png/person-cleaning-floor.png) | dsPersonCleaningFloor | person-cleaning-floor
 ![](../png/person-cook.png) | dsPersonCook | person-cook
 ![](../png/person-dolly.png) | dsPersonDolly | person-dolly
+![](../png/person-exit.png) | dsPersonExit | person-exit
 ![](../png/person-reading.png) | dsPersonReading | person-reading
+![](../png/person-shopping.png) | dsPersonShopping | person-shopping
 ![](../png/pet.png) | dsPet | pet
+![](../png/pet-food.png) | dsPetFood | pet-food
 ![](../png/picture-frame.png) | dsPictureFrame | picture-frame
 ![](../png/piercing.png) | dsPiercing | piercing
+![](../png/plate-cutlery.png) | dsPlateCutlery | plate-cutlery
+![](../png/plate-dinner.png) | dsPlateDinner | plate-dinner
 ![](../png/plates.png) | dsPlates | plates
 ![](../png/playground.png) | dsPlayground | playground
 ![](../png/playing.png) | dsPlaying | playing
@@ -114,10 +127,12 @@ Icon | File Name | FA Icon Name
 ![](../png/radio.png) | dsRadio | radio
 ![](../png/radish.png) | dsRadish | radish
 ![](../png/radish-chopped.png) | dsRadishChopped | radish-chopped
+![](../png/refridgerator.png) | dsRefridgerator | refridgerator
 ![](../png/ring.png) | dsRing | ring
 ![](../png/room-bed.png) | dsRoomBed | room-bed
 ![](../png/room-living.png) | dsRoomLiving | room-living
 ![](../png/rug.png) | dsRug | rug
+![](../png/salt.png) | dsSalt | salt
 ![](../png/search.png) | dsSearch | search
 ![](../png/shampoo.png) | dsShampoo | shampoo
 ![](../png/shaving-kit.png) | dsShavingKit | shaving-kit
@@ -132,6 +147,8 @@ Icon | File Name | FA Icon Name
 ![](../png/storage.png) | dsStorage | storage
 ![](../png/street-detail.png) | dsStreetDetail | street-detail
 ![](../png/street-view.png) | dsStreetView | street-view
+![](../png/suit-jacket.png) | dsSuitJacket | suit-jacket
+![](../png/table.png) | dsTable | table
 ![](../png/table-food.png) | dsTableFood | table-food
 ![](../png/table-workdesk.png) | dsTableWorkdesk | table-workdesk
 ![](../png/tattoo.png) | dsTattoo | tattoo
@@ -139,10 +156,13 @@ Icon | File Name | FA Icon Name
 ![](../png/teddybear.png) | dsTeddybear | teddybear
 ![](../png/teddybear-alt.png) | dsTeddybearAlt | teddybear-alt
 ![](../png/television.png) | dsTelevision | television
+![](../png/thinking.png) | dsThinking | thinking
+![](../png/thinking-bike.png) | dsThinkingBike | thinking-bike
 ![](../png/times.png) | dsTimes | times
 ![](../png/toilet.png) | dsToilet | toilet
 ![](../png/toilet-paper.png) | dsToiletPaper | toilet-paper
 ![](../png/tools.png) | dsTools | tools
+![](../png/tooth.png) | dsTooth | tooth
 ![](../png/toothbrush.png) | dsToothbrush | toothbrush
 ![](../png/toothpaste.png) | dsToothpaste | toothpaste
 ![](../png/toothpaste-toothbrush.png) | dsToothpasteToothbrush | toothpaste-toothbrush
@@ -152,6 +172,7 @@ Icon | File Name | FA Icon Name
 ![](../png/wall.png) | dsWall | wall
 ![](../png/washing-clothes.png) | dsWashingClothes | washing-clothes
 ![](../png/washing-detergent.png) | dsWashingDetergent | washing-detergent
+![](../png/watch.png) | dsWatch | watch
 ![](../png/water-drain.png) | dsWaterDrain | water-drain
 ![](../png/water-drink.png) | dsWaterDrink | water-drink
 ![](../png/water-walk.png) | dsWaterWalk | water-walk

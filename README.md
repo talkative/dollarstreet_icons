@@ -2,7 +2,7 @@
 
 > To be used with Font Awesome 5
 
-[![npm](https://img.shields.io/npm/v/@gapminder/dollar-street-icons.svg?style=popout-square&logo=npm&color=CB3837)](https://www.npmjs.com/package/@gapminder/dollar-street-icons) ![icons](https://img.shields.io/badge/icons-160-FF7C00.svg?style=popout-square&logo=adobe-illustrator)
+[![npm](https://img.shields.io/npm/v/@gapminder/dollar-street-icons.svg?style=popout-square&logo=npm&color=CB3837)](https://www.npmjs.com/package/@gapminder/dollar-street-icons) ![icons](https://img.shields.io/badge/icons-187-FF7C00.svg?style=popout-square&logo=adobe-illustrator)
 
 ## 🖼 The icons
 

@@ -1,4 +1,4 @@
-# Icon List (181)
+# Icon List (187)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -6,6 +6,7 @@ Icon | File Name | FA Icon Name
 ![](../png/alcohol.png) | dsAlcohol | alcohol
 ![](../png/armchair.png) | dsArmchair | armchair
 ![](../png/arrow-right.png) | dsArrowRight | arrow-right
+![](../png/baby-powder.png) | dsBabyPowder | baby-powder
 ![](../png/ban.png) | dsBan | ban
 ![](../png/bathtub.png) | dsBathtub | bathtub
 ![](../png/bed.png) | dsBed | bed
@@ -15,6 +16,7 @@ Icon | File Name | FA Icon Name
 ![](../png/boat.png) | dsBoat | boat
 ![](../png/book.png) | dsBook | book
 ![](../png/bowl.png) | dsBowl | bowl
+![](../png/bull.png) | dsBull | bull
 ![](../png/car.png) | dsCar | car
 ![](../png/car-key.png) | dsCarKey | car-key
 ![](../png/cc-circle.png) | dsCcCircle | cc-circle
@@ -48,6 +50,7 @@ Icon | File Name | FA Icon Name
 ![](../png/drainage.png) | dsDrainage | drainage
 ![](../png/earring.png) | dsEarring | earring
 ![](../png/empty.png) | dsEmpty | empty
+![](../png/environment.png) | dsEnvironment | environment
 ![](../png/family.png) | dsFamily | family
 ![](../png/family-heart.png) | dsFamilyHeart | family-heart
 ![](../png/fav-decoration.png) | dsFavDecoration | fav-decoration
@@ -70,6 +73,7 @@ Icon | File Name | FA Icon Name
 ![](../png/hand-left.png) | dsHandLeft | hand-left
 ![](../png/hand-right.png) | dsHandRight | hand-right
 ![](../png/hanger.png) | dsHanger | hanger
+![](../png/horse.png) | dsHorse | horse
 ![](../png/house.png) | dsHouse | house
 ![](../png/house2.png) | dsHouse2 | house2
 ![](../png/house-attached.png) | dsHouseAttached | house-attached
@@ -136,6 +140,7 @@ Icon | File Name | FA Icon Name
 ![](../png/search.png) | dsSearch | search
 ![](../png/shampoo.png) | dsShampoo | shampoo
 ![](../png/shaving-kit.png) | dsShavingKit | shaving-kit
+![](../png/sheep.png) | dsSheep | sheep
 ![](../png/shoe-dirty.png) | dsShoeDirty | shoe-dirty
 ![](../png/shoe-highheel.png) | dsShoeHighheel | shoe-highheel
 ![](../png/shower.png) | dsShower | shower
@@ -176,6 +181,7 @@ Icon | File Name | FA Icon Name
 ![](../png/water-drain.png) | dsWaterDrain | water-drain
 ![](../png/water-drink.png) | dsWaterDrink | water-drink
 ![](../png/water-walk.png) | dsWaterWalk | water-walk
+![](../png/wedding-photo.png) | dsWeddingPhoto | wedding-photo
 ![](../png/wheelbarrow.png) | dsWheelbarrow | wheelbarrow
 ![](../png/wheelie-bin.png) | dsWheelieBin | wheelie-bin
 ![](../png/wine-glass.png) | dsWineGlass | wine-glass

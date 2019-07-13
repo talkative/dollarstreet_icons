@@ -48,12 +48,6 @@ const getFilename = function(name) {
 const make = function(cb) {
   jetty.clear()
 
-  try {
-    fs.mkdirSync(path.join(__basedir, 'dist'))
-  } catch (e) {
-    if (e.code !== 'EEXIST') throw e
-  }
-
   jetty.moveTo([0, 0]).text('🔎 Finding SVG files...')
 
   fs.readdir(path.join(__basedir, 'svg'), function(err, files) {

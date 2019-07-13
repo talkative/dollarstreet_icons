@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var prefix = "ds";
 var iconName = "marker-arrow";
-var width = 50;
-var height = 50;
+var width = 512;
+var height = 512;
 var ligatures = [];
 var unicode = "e001";
-var svgPathData = "M15,40V0H35V40L25,50Z";
+var svgPathData = "M153.6,409.6V0h204.8v409.6L256,512L153.6,409.6z";
 
 exports.definition = {
   prefix: prefix,

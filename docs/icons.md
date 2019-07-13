@@ -1,4 +1,4 @@
-# Icon List (159)
+# Icon List (160)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -37,6 +37,8 @@ Icon | File Name | FA Icon Name
 ![](../png/dishwasher.png) | dsDishwasher | dishwasher
 ![](../png/dishwashing-soap.png) | dsDishwashingSoap | dishwashing-soap
 ![](../png/disposal-pads.png) | dsDisposalPads | disposal-pads
+![](../png/dollarstreet.png) | dsDollarstreet | dollarstreet
+![](../png/dollarstreet-circle.png) | dsDollarstreetCircle | dollarstreet-circle
 ![](../png/door.png) | dsDoor | door
 ![](../png/door-lock.png) | dsDoorLock | door-lock
 ![](../png/download.png) | dsDownload | download
@@ -79,7 +81,6 @@ Icon | File Name | FA Icon Name
 ![](../png/lamp-ceiling.png) | dsLampCeiling | lamp-ceiling
 ![](../png/laptop.png) | dsLaptop | laptop
 ![](../png/light-bulb.png) | dsLightBulb | light-bulb
-![](../png/logo-circle.png) | dsLogoCircle | logo-circle
 ![](../png/makeup.png) | dsMakeup | makeup
 ![](../png/marker-arrow.png) | dsMarkerArrow | marker-arrow
 ![](../png/marker-food.png) | dsMarkerFood | marker-food

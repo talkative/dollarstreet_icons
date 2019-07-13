@@ -26,8 +26,8 @@
   "license": "ISC",
   "devDependencies": {
     "ascii-progress": "^1.0.5",
+    "fs-extra": "^8.1.0",
     "jetty": "^0.2.1",
-    "libxmljs": "^0.19.5",
     "prettier": "^1.16.4",
     "require-all": "^3.0.0",
     "string-template": "^1.0.0",

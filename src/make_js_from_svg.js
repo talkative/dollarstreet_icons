@@ -50,7 +50,7 @@ const make = function(cb) {
 
   jetty.moveTo([0, 0]).text('🔎 Finding SVG files...')
 
-  fs.readdir(path.join(__basedir, 'svg'), function(err, files) {
+  fs.readdir(path.join(__basedir, 'svg'), function(err, contents) {
     if (err) {
       console.error('Could not list the directory.', err)
       process.exit(1)
@@ -59,6 +59,9 @@ const make = function(cb) {
     jetty.moveTo([1, 0]).text('⚙️  Processing')
 
     jetty.moveTo([1, 0])
+
+    const filenameMatch = /.svg/
+    const files = contents.filter(filename => filename.match(filenameMatch))
 
     const total = files.length - 1
     bar = new ProgressBar({

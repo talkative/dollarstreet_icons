@@ -117,7 +117,7 @@ Icon | File Name | FA Icon Name
 
     jetty.moveTo([0, 0]).text('✅ Creating dist folder... Done')
 
-    jetty.moveTo([1, 0]).text('☑️ Building index.js...')
+    jetty.moveTo([1, 0]).text('☑️  Building index.js...')
 
     fs.writeFile(
       path.join(__basedir, 'dist', 'index.js'),
@@ -129,7 +129,7 @@ Icon | File Name | FA Icon Name
       }
     )
 
-    jetty.moveTo([2, 0]).text('☑️ Building index.es.js...')
+    jetty.moveTo([2, 0]).text('☑️  Building index.es.js...')
 
     fs.writeFile(
       path.join(__basedir, 'dist', 'index.es.js'),
@@ -141,7 +141,7 @@ Icon | File Name | FA Icon Name
       }
     )
 
-    jetty.moveTo([3, 0]).text('☑️ Generating icon preview page...')
+    jetty.moveTo([3, 0]).text('☑️  Generating icon preview page...')
 
     fs.writeFile(
       path.join(__basedir, 'docs', 'icons.md'),
@@ -170,8 +170,14 @@ Icon | File Name | FA Icon Name
 
     jetty.moveTo([6, 0]).text('☑️  Generating PNGs...')
 
+    const svgFolderContents = fs.readdirSync(path.join(__basedir, 'svg'))
+    const filenameMatch = /.svg/
+    const files = svgFolderContents
+      .filter(filename => filename.match(filenameMatch))
+      .map(filename => path.join(__basedir, 'svg', filename))
+
     svg_to_png
-      .convert(path.join(__basedir, 'svg'), path.join(__basedir, 'png'), {
+      .convert(files, path.join(__basedir, 'png'), {
         defaultWidth: 64,
         defaultHeight: 64,
       })

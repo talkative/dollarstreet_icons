@@ -1,14 +1,14 @@
-# @GapMinder/dollar-street-icons - for Font Awesome
+# DollarStreet icons by GapMinder
 
-> Icons used by Dollar Street by GapMinder
+> To be used with Font Awesome 5
 
-[![npm](https://img.shields.io/npm/v/@gapminder/dollar-street-icons.svg?style=flat-square)](https://www.npmjs.com/package/@gapminder/dollar-street-icons)
+[![npm](https://img.shields.io/npm/v/@gapminder/dollar-street-icons.svg?style=popout-square&logo=npm&color=CB3837)](https://www.npmjs.com/package/@gapminder/dollar-street-icons) ![icons](https://img.shields.io/badge/icons-160-FF7C00.svg?style=popout-square&logo=adobe-illustrator)
 
-## The icons
+## 🖼 The icons
 
 For a list of all icons with thumbnails, see [docs/icons.md](docs/icons.md). Included in the NPM package is `icons.json`, for your convenience.
 
-## Installation
+## 🌩 Installation
 
 ```
 npm i --save @gapminder/dollar-street-icons
@@ -20,7 +20,7 @@ Or
 yarn add @gapminder/dollar-street-icons
 ```
 
-## How to use
+## 📒 How to use
 
 Import your icons like so:
 
@@ -41,7 +41,7 @@ Or go straight to the [Font Awesome API documentation](https://fontawesome.com/h
 
 ---
 
-## Read more
+## 📚 Read more
 
 • [Editing the icon set](docs/editing.md)
 

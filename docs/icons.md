@@ -1,4 +1,4 @@
-# Icon List (187)
+# Icon List (189)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -71,6 +71,7 @@ Icon | File Name | FA Icon Name
 ![](../png/hairbrush.png) | dsHairbrush | hairbrush
 ![](../png/hand-drops.png) | dsHandDrops | hand-drops
 ![](../png/hand-left.png) | dsHandLeft | hand-left
+![](../png/hand-point.png) | dsHandPoint | hand-point
 ![](../png/hand-right.png) | dsHandRight | hand-right
 ![](../png/hanger.png) | dsHanger | hanger
 ![](../png/horse.png) | dsHorse | horse
@@ -107,6 +108,7 @@ Icon | File Name | FA Icon Name
 ![](../png/music-equipment.png) | dsMusicEquipment | music-equipment
 ![](../png/necklace.png) | dsNecklace | necklace
 ![](../png/oven.png) | dsOven | oven
+![](../png/pan.png) | dsPan | pan
 ![](../png/parking-lot.png) | dsParkingLot | parking-lot
 ![](../png/pen.png) | dsPen | pen
 ![](../png/person-cleaning-floor.png) | dsPersonCleaningFloor | person-cleaning-floor

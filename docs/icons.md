@@ -1,4 +1,4 @@
-# Icon List (189)
+# Icon List (190)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -83,6 +83,7 @@ Icon | File Name | FA Icon Name
 ![](../png/house-key.png) | dsHouseKey | house-key
 ![](../png/house-roof.png) | dsHouseRoof | house-roof
 ![](../png/house-walls.png) | dsHouseWalls | house-walls
+![](../png/info.png) | dsInfo | info
 ![](../png/info-circle.png) | dsInfoCircle | info-circle
 ![](../png/key.png) | dsKey | key
 ![](../png/kitchen.png) | dsKitchen | kitchen

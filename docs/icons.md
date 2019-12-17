@@ -1,4 +1,4 @@
-# Icon List (192)
+# Icon List (193)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -51,6 +51,7 @@ Icon | File Name | FA Icon Name
 ![](../png/earring.png) | dsEarring | earring
 ![](../png/empty.png) | dsEmpty | empty
 ![](../png/environment.png) | dsEnvironment | environment
+![](../png/facility.png) | dsFacility | facility
 ![](../png/factory.png) | dsFactory | factory
 ![](../png/family.png) | dsFamily | family
 ![](../png/family-heart.png) | dsFamilyHeart | family-heart

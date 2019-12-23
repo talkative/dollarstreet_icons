@@ -1,4 +1,4 @@
-# Icon List (193)
+# Icon List (191)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -51,8 +51,7 @@ Icon | File Name | FA Icon Name
 ![](../png/earring.png) | dsEarring | earring
 ![](../png/empty.png) | dsEmpty | empty
 ![](../png/environment.png) | dsEnvironment | environment
-![](../png/facility.png) | dsFacility | facility
-![](../png/factory.png) | dsFactory | factory
+![](../png/factory-simple.png) | dsFactorySimple | factory-simple
 ![](../png/family.png) | dsFamily | family
 ![](../png/family-heart.png) | dsFamilyHeart | family-heart
 ![](../png/fav-decoration.png) | dsFavDecoration | fav-decoration
@@ -180,7 +179,6 @@ Icon | File Name | FA Icon Name
 ![](../png/trash-bin.png) | dsTrashBin | trash-bin
 ![](../png/tree-bench.png) | dsTreeBench | tree-bench
 ![](../png/wall.png) | dsWall | wall
-![](../png/warehouse.png) | dsWarehouse | warehouse
 ![](../png/washing-clothes.png) | dsWashingClothes | washing-clothes
 ![](../png/washing-detergent.png) | dsWashingDetergent | washing-detergent
 ![](../png/watch.png) | dsWatch | watch

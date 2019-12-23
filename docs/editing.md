@@ -8,7 +8,7 @@ yarn install
 
 #### 2) Add SVG files
 
-Create your SVG file, and make sure it's a "compound path" _(Illustrator: `Object > Compound Path > Make`)_. The file must have this structure, with `viewBox` and one `<path>` element:
+Create your SVG file with dimensions 512x512 pixels. Make sure it's a "compound path" _(Illustrator: `Object > Compound Path > Make`)_. The file must have this structure, with `viewBox` and one `<path>` element:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

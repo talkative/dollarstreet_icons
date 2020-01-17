@@ -1,4 +1,4 @@
-# Icon List (192)
+# Icon List (199)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -7,6 +7,7 @@ Icon | File Name | FA Icon Name
 ![](../png/armchair.png) | dsArmchair | armchair
 ![](../png/arrow-right.png) | dsArrowRight | arrow-right
 ![](../png/baby-powder.png) | dsBabyPowder | baby-powder
+![](../png/badge.png) | dsBadge | badge
 ![](../png/ban.png) | dsBan | ban
 ![](../png/bathtub.png) | dsBathtub | bathtub
 ![](../png/bed.png) | dsBed | bed
@@ -99,6 +100,10 @@ Icon | File Name | FA Icon Name
 ![](../png/marker-food.png) | dsMarkerFood | marker-food
 ![](../png/marker-map.png) | dsMarkerMap | marker-map
 ![](../png/meat.png) | dsMeat | meat
+![](../png/medal.png) | dsMedal | medal
+![](../png/medal-bronze.png) | dsMedalBronze | medal-bronze
+![](../png/medal-gold.png) | dsMedalGold | medal-gold
+![](../png/medal-silver.png) | dsMedalSilver | medal-silver
 ![](../png/medication.png) | dsMedication | medication
 ![](../png/menstruation-pad.png) | dsMenstruationPad | menstruation-pad
 ![](../png/menstruation-pad-disposal.png) | dsMenstruationPadDisposal | menstruation-pad-disposal
@@ -136,6 +141,7 @@ Icon | File Name | FA Icon Name
 ![](../png/radish.png) | dsRadish | radish
 ![](../png/radish-chopped.png) | dsRadishChopped | radish-chopped
 ![](../png/refridgerator.png) | dsRefridgerator | refridgerator
+![](../png/reset.png) | dsReset | reset
 ![](../png/ring.png) | dsRing | ring
 ![](../png/room-bed.png) | dsRoomBed | room-bed
 ![](../png/room-living.png) | dsRoomLiving | room-living
@@ -178,6 +184,7 @@ Icon | File Name | FA Icon Name
 ![](../png/trash.png) | dsTrash | trash
 ![](../png/trash-bin.png) | dsTrashBin | trash-bin
 ![](../png/tree-bench.png) | dsTreeBench | tree-bench
+![](../png/trophy.png) | dsTrophy | trophy
 ![](../png/wall.png) | dsWall | wall
 ![](../png/warehouse.png) | dsWarehouse | warehouse
 ![](../png/washing-clothes.png) | dsWashingClothes | washing-clothes

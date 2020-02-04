@@ -1,4 +1,4 @@
-# Icon List (199)
+# Icon List (200)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
@@ -185,6 +185,7 @@ Icon | File Name | FA Icon Name
 ![](../png/trash-bin.png) | dsTrashBin | trash-bin
 ![](../png/tree-bench.png) | dsTreeBench | tree-bench
 ![](../png/trophy.png) | dsTrophy | trophy
+![](../png/trophy-alt.png) | dsTrophyAlt | trophy-alt
 ![](../png/wall.png) | dsWall | wall
 ![](../png/warehouse.png) | dsWarehouse | warehouse
 ![](../png/washing-clothes.png) | dsWashingClothes | washing-clothes

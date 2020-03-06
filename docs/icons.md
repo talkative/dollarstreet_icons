@@ -1,8 +1,10 @@
-# Icon List (200)
+# Icon List (205)
 
 Icon | File Name | FA Icon Name
 --- | --- | ---
+![](../png/404.png) | ds404 | 404
 ![](../png/agriculture.png) | dsAgriculture | agriculture
+![](../png/album.png) | dsAlbum | album
 ![](../png/alcohol.png) | dsAlcohol | alcohol
 ![](../png/armchair.png) | dsArmchair | armchair
 ![](../png/arrow-right.png) | dsArrowRight | arrow-right
@@ -52,6 +54,7 @@ Icon | File Name | FA Icon Name
 ![](../png/earring.png) | dsEarring | earring
 ![](../png/empty.png) | dsEmpty | empty
 ![](../png/environment.png) | dsEnvironment | environment
+![](../png/exclamation-mark.png) | dsExclamationMark | exclamation-mark
 ![](../png/factory.png) | dsFactory | factory
 ![](../png/family.png) | dsFamily | family
 ![](../png/family-heart.png) | dsFamilyHeart | family-heart
@@ -137,6 +140,7 @@ Icon | File Name | FA Icon Name
 ![](../png/plot.png) | dsPlot | plot
 ![](../png/power-outlet.png) | dsPowerOutlet | power-outlet
 ![](../png/power-switch.png) | dsPowerSwitch | power-switch
+![](../png/question-mark.png) | dsQuestionMark | question-mark
 ![](../png/radio.png) | dsRadio | radio
 ![](../png/radish.png) | dsRadish | radish
 ![](../png/radish-chopped.png) | dsRadishChopped | radish-chopped
@@ -148,6 +152,7 @@ Icon | File Name | FA Icon Name
 ![](../png/rug.png) | dsRug | rug
 ![](../png/salt.png) | dsSalt | salt
 ![](../png/search.png) | dsSearch | search
+![](../png/server-broken.png) | dsServerBroken | server-broken
 ![](../png/shampoo.png) | dsShampoo | shampoo
 ![](../png/shaving-kit.png) | dsShavingKit | shaving-kit
 ![](../png/sheep.png) | dsSheep | sheep

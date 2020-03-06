@@ -110,14 +110,14 @@ Icon | File Name | FA Icon Name
 
   jetty.clear()
 
-  jetty.moveTo([0, 0]).text('☑️ Creating dist folder...')
+  jetty.moveTo([0, 0]).text('☑️  Creating dist folder...')
 
   fs.mkdir(path.join(__basedir, 'dist'), { recursive: true }, err => {
     if (err && err.code !== 'EEXIST') throw err
 
-    jetty.moveTo([0, 0]).text('✅ Creating dist folder... Done')
+    jetty.moveTo([0, 0]).text('✅  Creating dist folder... Done')
 
-    jetty.moveTo([1, 0]).text('☑️  Building index.js...')
+    jetty.moveTo([1, 0]).text('✅  Building index.js...')
 
     fs.writeFile(
       path.join(__basedir, 'dist', 'index.js'),
@@ -125,11 +125,11 @@ Icon | File Name | FA Icon Name
       'utf8',
       err => {
         if (err) throw err
-        jetty.moveTo([1, 0]).text('✅ Building index.js... Done')
+        jetty.moveTo([1, 0]).text('✅  Building index.js... Done')
       }
     )
 
-    jetty.moveTo([2, 0]).text('☑️  Building index.es.js...')
+    jetty.moveTo([2, 0]).text('✅   Building index.es.js...')
 
     fs.writeFile(
       path.join(__basedir, 'dist', 'index.es.js'),
@@ -137,11 +137,11 @@ Icon | File Name | FA Icon Name
       'utf8',
       err => {
         if (err) throw err
-        jetty.moveTo([2, 0]).text('✅ Building index.es.js... Done')
+        jetty.moveTo([2, 0]).text('✅  Building index.es.js... Done')
       }
     )
 
-    jetty.moveTo([3, 0]).text('☑️  Generating icon preview page...')
+    jetty.moveTo([3, 0]).text('✅   Generating icon preview page...')
 
     fs.writeFile(
       path.join(__basedir, 'docs', 'icons.md'),
@@ -149,7 +149,7 @@ Icon | File Name | FA Icon Name
       'utf8',
       err => {
         if (err) throw err
-        jetty.moveTo([3, 0]).text('✅ Generating icon preview page... Done')
+        jetty.moveTo([3, 0]).text('✅  Generating icon preview page... Done')
       }
     )
 
@@ -157,7 +157,7 @@ Icon | File Name | FA Icon Name
 
     fs.writeFile(path.join(__basedir, 'icons.json'), iconIndex, 'utf8', err => {
       if (err) throw err
-      jetty.moveTo([4, 0]).text('✅ Generating icon list... Done')
+      jetty.moveTo([4, 0]).text('✅  Generating icon list... Done')
     })
   })
 
@@ -166,9 +166,9 @@ Icon | File Name | FA Icon Name
   fs.mkdir(path.join(__basedir, 'png'), { recursive: true }, err => {
     if (err && err.code !== 'EEXIST') throw err
 
-    jetty.moveTo([5, 0]).text('✅ Creating png folder... Done')
+    jetty.moveTo([5, 0]).text('✅  Creating png folder... Done')
 
-    jetty.moveTo([6, 0]).text('☑️  Generating PNGs...')
+    jetty.moveTo([6, 0]).text('✅  Generating PNGs...')
 
     const svgFolderContents = fs.readdirSync(path.join(__basedir, 'svg'))
     const filenameMatch = /.svg/
@@ -182,7 +182,7 @@ Icon | File Name | FA Icon Name
         defaultHeight: 64,
       })
       .then(function(hello, hey) {
-        jetty.moveTo([6, 0]).text('✅ Generating PNGs... Done')
+        jetty.moveTo([6, 0]).text('✅  Generating PNGs... Done')
         jetty.moveTo([7, 0])
       })
   })

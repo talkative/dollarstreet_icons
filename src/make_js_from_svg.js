@@ -4,10 +4,7 @@ const parser = require('xml2json')
 const compile = require('string-template/compile')
 const prettier = require('prettier')
 
-const ProgressBar = require('ascii-progress')
-const Jetty = require('jetty')
-
-const jetty = new Jetty(process.stdout)
+const { sleep } = require('./utils')
 
 const fileContents = compile(
   `
@@ -38,40 +35,33 @@ exports.svgPathData = svgPathData
 `
 )
 
-const getFilename = function(name) {
-  const newName = name.replace(/-([a-z])/gi, function(all, letter) {
+const getFilename = function (name) {
+  const newName = name.replace(/-([a-z])/gi, function (all, letter) {
     return letter.toUpperCase()
   })
   return newName.charAt(0).toUpperCase() + newName.slice(1)
 }
 
-const make = function(cb) {
-  jetty.clear()
+const make = async function (progressFn, cb) {
+  progressFn('🔎 Finding SVG files...')
 
-  jetty.moveTo([0, 0]).text('🔎 Finding SVG files...')
-
-  fs.readdir(path.join(__basedir, 'svg'), function(err, contents) {
+  fs.readdir(path.join(__basedir, 'svg'), async function (err, contents) {
     if (err) {
       console.error('Could not list the directory.', err)
       process.exit(1)
     }
 
-    jetty.moveTo([1, 0]).text('⚙️  Processing')
-
-    jetty.moveTo([1, 0])
-
     const filenameMatch = /.svg/
-    const files = contents.filter(filename => filename.match(filenameMatch))
+    const files = contents.filter((filename) => filename.match(filenameMatch))
 
     const total = files.length - 1
-    bar = new ProgressBar({
-      schema: '⚙️  :bar :current/:total ETA :etas \n📄 :document',
-    })
+
+    progressFn(`0/${total} processing...`)
 
     for (let current = 0, ii = files.length; current < ii; current++) {
       const file = files[current]
 
-      bar.update(current / total, { document: file })
+      progressFn(`${current}/${total} ${file}`)
 
       const content = fs.readFileSync(path.join(__basedir, 'svg', file), {
         encoding: 'utf-8',
@@ -82,10 +72,7 @@ const make = function(cb) {
           data = JSON.parse(json),
           [, , width, height] = data.svg.viewBox.split(' '),
           svgPath = data.svg.path.d,
-          name = file
-            .split('.')
-            .slice(0, -1)
-            .join(),
+          name = file.split('.').slice(0, -1).join(),
           filename = `ds${getFilename(name)}`
 
         const newFile = prettier.format(
@@ -102,15 +89,17 @@ const make = function(cb) {
         fs.writeFileSync(
           path.join(__basedir, 'dist', `${filename}.js`),
           newFile,
-          err => {
+          (err) => {
             if (err) {
               throw err
             }
           }
         )
+
+        await sleep(20)
       } catch (e) {
         console.error(e)
-        process.exit(1)
+
         throw `⚠️ Found issue with ${file}, please make sure the SVG is clean`
       }
     }

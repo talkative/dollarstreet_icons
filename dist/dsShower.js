@@ -12,7 +12,7 @@ var svgPathData =
 exports.definition = {
   prefix: prefix,
   iconName: iconName,
-  icon: [width, height, ligatures, unicode, svgPathData]
+  icon: [width, height, ligatures, unicode, svgPathData],
 };
 
 exports.dsShower = exports.definition;

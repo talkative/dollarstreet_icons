@@ -11,7 +11,7 @@ var svgPathData = "M153.6,409.6V0h204.8v409.6L256,512L153.6,409.6z";
 exports.definition = {
   prefix: prefix,
   iconName: iconName,
-  icon: [width, height, ligatures, unicode, svgPathData]
+  icon: [width, height, ligatures, unicode, svgPathData],
 };
 
 exports.dsMarkerArrow = exports.definition;

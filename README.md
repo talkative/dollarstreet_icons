@@ -1,12 +1,16 @@
-# DollarStreet icons by GapMinder
+<div align="center">
+<a href="https://www.gapminder.org/dollar-street"><img src="assets/dollarstreet_logo.png" alt="Dollar Street by GapMinder" /></a>
+<h1>Dollar Street Icons</h1>
+<p>Icon set to be used with the awesome icon framework <a href="https://fontawesome.com">Font Awesome</a></p>
+</div>
 
-> To be used with Font Awesome 5
+<hr />
 
-[![npm](https://img.shields.io/npm/v/@gapminder/dollar-street-icons.svg?style=popout-square&logo=npm&color=CB3837)](https://www.npmjs.com/package/@gapminder/dollar-street-icons) ![icons](https://img.shields.io/badge/icons-187-FF7C00.svg?style=popout-square&logo=adobe-illustrator)
+[![Font Awesome][fa-badge]][fa]
 
 ## 🖼 The icons
 
-For a list of all icons with thumbnails, see [docs/icons.md](docs/icons.md). Included in the NPM package is `icons.json`, for your convenience.
+For a list of all icons with thumbnails, see [icons.md](icons.md). Included in the NPM package is `icons.json`, for your convenience.
 
 ## 🌩 Installation
 
@@ -14,11 +18,7 @@ For a list of all icons with thumbnails, see [docs/icons.md](docs/icons.md). Inc
 npm i --save @gapminder/dollar-street-icons
 ```
 
-Or
-
-```
-yarn add @gapminder/dollar-street-icons
-```
+---
 
 ## 📒 How to use
 
@@ -41,8 +41,55 @@ Or go straight to the [Font Awesome API documentation](https://fontawesome.com/h
 
 ---
 
-## 📚 Read more
+## How to add icons
 
-• [Editing the icon set](docs/editing.md)
+#### 1) Install development dependencies
 
-• [GitHub issues](https://github.com/GapMinder/dollar-street-icons/issues)
+```
+npm install
+```
+
+#### 2) Add SVG files
+
+Create your SVG file with dimensions 512x512 pixels. Make sure it's a "compound path" _(Illustrator: `Object > Compound Path > Make`)_. The file must have this structure, with `viewBox` and one `<path>` element:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.3.4, SVG Export Plug-In . SVG Version: 5.67 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+<path d="M304.3,353C210..."/>
+</svg>
+```
+
+Add to the `svg` folder. Name the icon as you wish to call it in Font Awesome, lower-case hyphenated, for example: `logo-circle-svg`
+
+#### 3) Run the build script:
+
+```
+npm run build
+```
+
+#### 4) Publish to NPM
+
+> ⚠️ You must be a member of [the GapMinder NPM org](https://www.npmjs.com/org/gapminder) to continue!
+
+```
+npm publish --access public
+```
+
+---
+
+## 🗓 Updated
+
+2022-08-23
+
+<br /><br /><br />
+
+<hr />
+
+<div align="center">
+<a href="https://www.gapminder.org"><img src="assets/gapminder_logo.png" alt="Gap Minder" /></a>
+</div>
+
+[fa]: https://fontawesome.com
+[fa-badge]: https://img.shields.io/badge/FontAwesome-5-528dd7.svg?style=for-the-badge&logo=fontawesome

@@ -1,6 +1,6 @@
 {
   "name": "@gapminder/dollar-street-icons",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Font Awesome icon library for Dollar Street by GapMinder",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -18,21 +18,21 @@
     "url": "https://github.com/GapMinder/dollar-street-icons"
   },
   "engines": {
-    "node": ">=6"
+    "node": "~16"
   },
   "dependencies": {
     "@fortawesome/fontawesome-common-types": "0.2.17"
   },
   "license": "ISC",
   "devDependencies": {
-    "ascii-progress": "^1.0.5",
-    "fs-extra": "^8.1.0",
-    "jetty": "^0.2.1",
-    "prettier": "^1.16.4",
+    "fs-extra": "^10.1.0",
+    "listr": "0.14.3",
+    "prettier": "^2.7.1",
     "require-all": "^3.0.0",
+    "rxjs": "7.5.6",
     "string-template": "^1.0.0",
     "stringify-object": "^3.3.0",
-    "svg-to-png": "^4.0.0",
-    "xml2json": "^0.11.2"
+    "svg-to-png": "4.0.0",
+    "xml2json": "^0.12.0"
   }
 }
